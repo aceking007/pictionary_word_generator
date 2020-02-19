@@ -15,3 +15,7 @@
   min-width: 200px;
   font-size: 2vw;
 }
+#prevWords{
+  word-wrap: break-word;
+  max-width: 50em;
+}
