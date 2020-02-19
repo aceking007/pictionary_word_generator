@@ -5,11 +5,13 @@
 .center{
   margin: auto;
   width: 50%;
+  min-width: 500px;
   padding: 10px;
   text-align: center;
   font-size:3vw;
 }
 .button{
   width: 50%;
+  min-width: 200px;
   font-size: 2vw;
 }
