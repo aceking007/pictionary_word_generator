@@ -7,4 +7,9 @@
   width: 50%;
   padding: 10px;
   text-align: center;
+  font-size:3vw;
+}
+.button{
+  width: 50%;
+  font-size: 2vw;
 }
