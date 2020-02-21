@@ -4,30 +4,34 @@
   <title>Pictionary Word Generator</title>
   <link rel='stylesheet' href='styles.css'>
   <script type='text/javascript' src='load_data.js'></script>
+  <script type='text/javascript' src='dictionary.js'></script>
 </head>
 <body>
-  <div id='navigation'>
+  <nav id='navigation'>
     <a href="https://aceking007.github.io/">Home</a>
     <a href="https://aceking007.github.io/projects/">Projects</a>
-  </div>
+  </nav>
+  <main>
   <div id='fullLayout'>
     <p>
       <h1>Random word generator</h1><br>
-      <div class='center'>
-      Click on the following button to generate a random word
-    </div>
+      <section class='center'>
+      Click on the following button to generate a random word (Or try pressing Alt + x or Alt + Shift + x)
+      </section>
     </p>
-    <div class='center'>
+    <section class='center'>
       <div>
         <form>
-          <button type='button' class='button' onclick="randomizeWord()"><strong>Generate Word!</strong></button>
+          <button type='button' class='button' accesskey="x" onclick="randomizeWord()"><strong>Generate Word!</strong></button>
         </form>
-      </div><br>
-    <div class='center'>
+      </section><br>
+    <section class='center'>
       <em>Previous Words:</em>
       <p id='prevWords' style='word-wrap: break-word'>
       </p>
-    </div>
+    </section>
   </div>
+  </main>
+  <footer> &#9400; 2020 Arpit Omprakash</footer>
 </body>
 </html>

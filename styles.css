@@ -74,3 +74,9 @@ a{
 a:hover {
   color: #00F;
 }
+footer {
+  font-size: 16px;
+  position: relative;
+  top:30px;
+  text-align: right;
+}
