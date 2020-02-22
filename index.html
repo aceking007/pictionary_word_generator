@@ -23,7 +23,7 @@
     <section class='center'>
       <div>
         <form>
-          <button type='button' class='button' accesskey="x" onclick="randomizeWord()"><strong>Generate Word!</strong></button>
+          <button type='button' class='button' accesskey="x" onclick="randomizeWord(); wordMeaning()"><strong>Generate Word!</strong></button>
         </form>
       </section><br>
     <section class='center'>
@@ -32,7 +32,9 @@
       </p>
     </section>
     <section class='center'>
-      <button type='button' onclick="meani()">Get Meaning</button>
+      <em>Word Meaning:</em>
+      <p id="mean">
+      </p>
     </section>
   </div>
   </main>
