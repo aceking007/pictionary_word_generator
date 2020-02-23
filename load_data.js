@@ -12,11 +12,11 @@ function randomizeWord(){
     currentWord = allWords[index];
     allChosenWords.push(currentWord);
     allWords = allWords.filter(e => e !== currentWord);
-    alert(currentWord);
+    // alert(currentWord);
     displayChosenWords();
   }
 }
 
 function displayChosenWords(){
-  document.getElementById('prevWords').innerHTML = allChosenWords;
+  document.getElementById('word').innerHTML = currentWord;
 }

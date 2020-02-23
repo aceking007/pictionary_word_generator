@@ -42,7 +42,7 @@
   }
 }
 /* A "#" is used to refer to a html element id  */
-#prevWords{
+#word{
   word-wrap: break-word;
   max-width: 50em;
 }
